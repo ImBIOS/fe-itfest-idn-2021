@@ -40,7 +40,7 @@ nav{
 }
 
 .logo img{
-  height: 50px;
+  height: 3.125rem;
 }
 
 ul.navigation{
@@ -56,11 +56,11 @@ ul.navigation li{
 }
 
 ul.navigation li a{
-  padding: 0 20px;
+  padding: 0 1.25rem;
   text-decoration: none;
   color: #dedada;
   font-family: 'Rowdies', cursive;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -72,9 +72,9 @@ ul.navigation li a:hover {
 #register{
   border: solid #fff 2px;
   border-radius: 10px;
-  padding: 12px 33px;
+  padding: 0.75rem 2.063rem;
   color: #fff;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 #register:hover{
@@ -104,17 +104,17 @@ nav #hamburger{
 }
 
 .container .icon{
-  width: 300px;
-  height: 300px;
+  width: 18.75rem;
+  height: 18.75rem;
 }
 
 .container .content{
   width: 60%;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 .title{
-  font-size: 54px;
+  font-size: 3.375rem;
   font-weight: 300;
   line-height: 1;
   color: #F18505;
@@ -122,42 +122,42 @@ nav #hamburger{
 
 .subtitle{
   font-family: 'Poppins', sans-serif;
-  font-size: 26px;
-  margin-top: 40px;
+  font-size: 1.625rem;
+  margin-top: 2.5rem;
 }
 
 .content p{
-  margin-top: 28px;
-  font-size: 20px;
+  margin-top: 1.75rem;
+  font-size: 1.25rem;
   line-height: 1.4;
-  margin-bottom: 42px;
+  margin-bottom: 2.625rem;
   text-align: justify;
 }
 
 .daftar{
   border-radius: 10px;
-  padding: 18px 33px;
+  padding: 1.125rem 2.063rem;
   color: #fff;
   text-decoration: none;
   font-family: 'Rowdies', cursive;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
-  margin-right: 24px;
+  margin-right: 1.5rem;
   background: linear-gradient(to right,#e73a12, #f18505);
 }
 
 .guidebook{
   border: solid #fff 2px;
   border-radius: 10px;
-  padding: 16px 31px;
+  padding: 1rem 1.938rem;
   color: #fff;
   text-decoration: none;
   font-family: 'Rowdies', cursive;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
-  margin-right: 24px;
+  margin-right: 1.5rem;
 }
 
 .guidebook:hover{
@@ -191,8 +191,8 @@ nav #hamburger{
 }
 
 .timeline-header{
-  font-size: 46px;
-  margin-bottom: 66px;
+  font-size: 2.875rem;
+  margin-bottom: 4.125rem;
 }
 
 .timeline-content{
@@ -202,31 +202,31 @@ nav #hamburger{
 }
 
 .timeline-card{
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
   
 }
 
 .timeline-card-heading{
-  height: 40px;
+  height: 2.5rem;
   width: fit-content;
-  padding: 14px 22px 0;
+  padding: 0.875rem 1.375rem 0;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'Rowdies', cursive;
   font-weight: 300;
   background: linear-gradient(to right, #C83661, #C83C32 );
 }
 
 .timeline-card p{
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .pattern-timeline{
   position: absolute;
-  top: 136px;
+  top: 8.5rem;
   left: 37%;
-  width: 42px;
-  height: 680px;
+  width: 2.625rem;
+  height: 42.5rem;
 }
 
 /* FOOTER */
@@ -234,11 +234,11 @@ nav #hamburger{
 
 .footer{
   margin-top: 10vh;
-  height: 300px;
+  height: 18.75rem;
 }
 
 .footer .container{
-  max-width: 1140;
+  max-width: 71.25rem;
   padding: 5%;
   margin-right: auto;
   margin-left: auto;
@@ -251,23 +251,23 @@ nav #hamburger{
 
 .footer-left{
   max-width: 25%;
-  padding: 0 15px;
+  padding: 0 0.938rem;
 }
 
 .footer-logo img{
-  width: 180px;
-  margin-bottom: 20px;
+  width: 11.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .footer-middle{
   max-width: 33.3%;
-  padding: 0 15px;
+  padding: 0 0.938rem;
   margin-right: auto;
   margin-left: 3%;
 }
 
 .footer-middle h2{
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-weight: 300;
 }
 
@@ -278,13 +278,13 @@ nav #hamburger{
 
 .footer-middle li{
   list-style: none;
-  margin: 10px;
+  margin: 0.625rem;
 }
 
 .footer-middle li a{
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .media{
@@ -301,7 +301,7 @@ nav #hamburger{
 }
 
 .footer-right h2{
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-weight: 300;
 }
 
@@ -309,6 +309,6 @@ nav #hamburger{
   width: 100%;
   background-color: #151F29;
   text-align: center;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   bottom: 0;
 }
