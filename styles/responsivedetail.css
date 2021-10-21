@@ -1,4 +1,4 @@
-@media(max-width: 768px){
+@media only screen and (max-width: 800px){
 
   .display_block{
     display: block !important;
@@ -261,4 +261,142 @@
     bottom: 0;
   }
   
+}
+
+@media(max-width: 1210px){
+  .hero .cover{
+    position: absolute;
+    top: 0;
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    object-position: center;
+    z-index: -1;
+  }
+
+  .hero .container{
+    flex-direction: column;
+    margin-top: 0px;
+    width: 90%;
+  }
+
+  .container .icon{
+    width: 50%;
+    height: 50%;
+    margin: 15vh auto 0;
+
+  }
+
+  .container .content{
+    width: 90%;
+    margin: auto;
+  }
+
+  .title{
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  
+  .content p{
+    margin-top: 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 2.625rem;
+    text-align: justify;
+  }
+
+  .wrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .daftar{
+    border-radius: 10px;
+    padding: 1.125rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    background: linear-gradient(to right,#e73a12, #f18505);
+  }
+  
+  .guidebook{
+    border: solid #fff 2px;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rowdies', cursive;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0.5rem;
+  }
+  
+  .guidebook:hover{
+    background-color: #FFF; 
+    color: #000;
+  }
+
+  .detail-hero-top{
+    display: none;
+  }
+
+  .timeline{
+    margin-top: 0;
+    padding-top: 20vh;
+    height: fit-content;
+    text-align: center;
+    position: relative;
+  }
+
+  .timeline-header{
+    font-size: 2.75rem;
+    font-weight: 300;
+    margin-bottom: 4.125rem;
+  }
+
+  .timeline-content{
+    width: 80%;
+    text-align: start;
+    margin: 0 auto;
+  }
+
+  .timeline-card{
+    margin-bottom: 1.125rem;
+    
+  }
+  
+  .timeline-card-heading{
+    height: 2.5rem;
+    width: fit-content;
+    padding: 0.875rem 1.375rem 0;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    background: linear-gradient(to right, #C83661, #C83C32 );
+  }
+  
+  .timeline-card p{
+    margin-bottom: 0.75rem;
+  }
+  
+  .pattern-timeline{
+    display: none;
+  }
+
+  .detail-hero-bottom{
+    z-index: -2;
+  }
 }
