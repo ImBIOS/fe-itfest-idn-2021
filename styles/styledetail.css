@@ -180,6 +180,10 @@ nav #hamburger{
   width: 30%;
 }
 
+.event{
+  display: none;
+}
+
 
 /* TIMELINE */
 
